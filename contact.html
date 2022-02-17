@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+  <title>Contact</title>
+</head>
+
+<body>
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <header class="whole">
+
+    <!-- Start of nav bar -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #196397;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                LOCACTION
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="location.html">ICELAND</a></li>
+                <li><a class="dropdown-item" href="#">MEXCIO</a></li>
+                <li><a class="dropdown-item" href="#">JAPAN</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of nav bar -->
+
+    <!-- page name -->
+
+    <h1 class="pagename">CONTACT</h1>
+
+    <!-- page name -->
+
+    <!--start of form-->
+    <section class="section pb-5">
+
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-5 mb-4">
+
+          <!--Form with header-->
+          <div class="card">
+
+            <div class="card-body">
+              <!--Header-->
+              <div class="form-header blue accent-1">
+                <h3><i class="fas fa-envelope"></i> FEEDBACK:</h3>
+              </div>
+
+              <br>
+
+              <!--Body-->
+              <div class="md-form">
+                <i class="fas fa-user prefix grey-text"></i>
+                <label for="form-name">Your name</label>
+                <input type="text" id="form-name" class="form-control">
+
+              </div>
+
+              <div class="md-form">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <label for="form-email">Your email</label>
+                <input type="text" id="form-email" class="form-control">
+
+              </div>
+
+              <div class="md-form">
+                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                <label for="form-text">Where you want to visit?/ Comments</label>
+                <textarea id="form-text" class="form-control md-textarea" rows="6"></textarea>
+              </div>
+
+              <div class="text-center mt-4">
+                <button class="btn btn-primary">Submit</button>
+              </div>
+
+            </div>
+
+          </div>
+          <!--Form with header-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-7">
+
+          <!--map-->
+          <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="width: 100%; height: 400px; ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1678.718503697743!2d-19.020424283759393!3d63.41292058326898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d74a30db9ff191%3A0x3920036bf6632d98!2sBlack%20Sand%20Beach!5e1!3m2!1sen!2sus!4v1633379726411!5m2!1sen!2sus"
+              width="850" height="440" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+          <!-- end of map -->
+
+          <br>
+          <!--Buttons-->
+          <div class="row text-center">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><img
+                  src="https://img.icons8.com/material-rounded/48/4a90e2/worldwide-location.png" /><i
+                  class="fas fa-map-marker-alt"></i></a>
+              <p>CX7J+5P6, Vik</p>
+              <p>Iceland</p>
+            </div>
+
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><img
+                  src="https://img.icons8.com/material-rounded/48/4a90e2/phone--v1.png" /><i
+                  class="fas fa-phone"></i></a>
+              <p>+ 01 234 567 89</p>
+            </div>
+
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><img src="https://img.icons8.com/color/48/000000/email.png" /><i
+                  class="fas fa-envelope"></i></a>
+              <p>info@gmail.com</p>
+              <p>sale@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+
+    </section>
+    <!--Section: Contact v.1-->
+
+
+  </header>
+
+  <footer class=" text-center text-white" style="background-color:rgba(25, 99, 151);">
+    <!-- Grid container -->
+    <div class="container p-0 pb-0">
+      <!-- Section: Social media -->
+      <section>
+        <!-- Facebook -->
+        <a class="btn btn-floating m+2" href="#!" role="button"><i class="fab fa-facebook-f"><img
+              src="https://img.icons8.com/material-rounded/24/ffffff/facebook-new.png" /></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"><img
+              src="https://img.icons8.com/material-rounded/24/ffffff/twitter-squared.png" /></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-floating m-1" href="#!" role="button"><i class="fab fa-google"><img
+              src="https://img.icons8.com/material-rounded/24/ffffff/google-logo.png" /></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-floating m-1" href="#!" role="button"><i class="fab fa-github"><img
+              src="https://img.icons8.com/material-rounded/24/ffffff/github.png" /></i></a>
+
+        <div class="text-center" style="background-color:rgba(25, 99, 151);">
+          All Rights Reserved, Adrian 2021
+        </div>
+      </section>
+
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

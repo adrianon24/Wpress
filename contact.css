@@ -1,0 +1,87 @@
+/* start of nav bar*/
+.nav-bar {
+  height: 70px;
+  width: 100%;
+  color: white;
+  /*  position: sticky; */
+  top: 0;
+  left: 0;
+
+}
+
+.nav {
+  float: right;
+  color: white;
+
+}
+
+/*  .rounded-circle{
+    height: 60px;
+    width: 60px;
+
+  } */
+
+
+/* end of nav bar*/
+
+.whole {
+  background-color: rgba(25, 99, 151);
+  font-family: 'Scheherazade New', serif;
+  font-size: 22px;
+
+}
+
+.pagename {
+  text-align: center;
+  color: white;
+
+}
+
+
+/* form & map */
+
+.row {
+  padding-top: 25px;
+  color: grey;
+  background-color: rgb(255, 251, 251);
+}
+
+.map-container-7 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-7 iframe {
+  left: 0;
+  top: 1000px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* end of form & map */
+
+/* start of footer */
+
+footer {
+  font-family: 'Scheherazade New', serif;
+  font-size: 20px;
+
+}
+
+/* .text-center{
+    width: 100%;
+} */
+
+
+/* .footer-text{
+    color: white;
+    text-align: center;
+    padding-top:15px;
+    position: relative;
+    font-size: small;
+  } */
+
+/* End of footer */

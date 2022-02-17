@@ -1,0 +1,58 @@
+/* start of nav bar*/
+.navbar {
+
+  font-family: 'Scheherazade New', serif;
+  font-size: 21px;
+
+}
+
+.rounded-circle {
+  height: 60px;
+  width: 60px;
+
+}
+
+/* .nav-item{
+    color:white;
+  } */
+
+
+/* end of nav bar*/
+
+.whole {
+  background-color: grey;
+}
+
+/* slide text */
+
+
+.text1 {
+  font-family: 'Scheherazade New', serif;
+  font-size: 75px;
+  margin-top: 150px;
+}
+
+/* .text2{
+  font-size: xx-large;
+} */
+
+/* slide text */
+
+/* start of footer */
+
+
+footer {
+  font-family: 'Scheherazade New', serif;
+  font-size: 21px;
+}
+
+
+/* .footer-text{
+  color: white;
+  text-align: center;
+  padding-top:40px;
+  position: relative;
+  font-size: small;
+} */
+
+/* End of footer */
